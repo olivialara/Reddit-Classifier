@@ -16,6 +16,9 @@ In short, my goal was to correctly classifiy a given post using classifying mode
 
 I began by gathering the data from -r/Bitcoin and -r/Dogecoin using Pushshift Reddit API. I combined all the data into one dataframe. I then cleaned the data by dealing with empty values, feature engineering, creating emoji columns, and removing unnneeded characters. Next, I explored the distribution and differences in the word counts, word frequency, emoji counts, and emoji frequency using plotly's histograms, bar charts, and box plots. Lastly, I tested 7 different models with 2 features, clean_title_and_text and clean_emoji, to attempt to correctly classify the posts.
 
+Below you can find a graph that demonstrates the most popular emojis used in each subreddit: 
+![Popular Emojis Used in Each Subreddit](images/emoji_chart.png)
+
 ### Contents:
 
 Part I: Gathering Data
